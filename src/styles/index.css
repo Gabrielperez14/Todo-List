@@ -1,12 +1,45 @@
-
-/* 
-
-    You can write your own styles here...
+.list-group-item.todos{
+    position: relative;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.borrar{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 20px;
+    opacity: 0;
+}
+
+.borrar:hover{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 20px;
+    opacity: 1;
+}
+
+input.entrada{
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    border-style: none;
+}
+
+input.entrada:active{
+    border: 0px;
+    border-style: none;
+}
+input.entrada:focus{
+    outline: none;
+}
